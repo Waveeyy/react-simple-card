@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+.card {
+  padding: 1rem;
+  border: 3px solid blue;
+  width: 52rem;
+  height: 15rem;
+  position: relative;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title {
+  position: absolute;
+  right: 1rem;
+  border: 3px solid orange;
+  width: 30rem;
+  height: 5rem;
+  /* position: absolute; */
+  /* right: 0; */
+}
+
+.description {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  border: 3px solid grey;
+  width: 30rem;
+  height: 9rem;
+}
+
+.IMG {
+  position: absolute;
+  /* left: 1rem; */
+  /* bottom: 1rem; */
+  border: 3px solid orange;
+  width: 20rem;
+  height: 14.6rem;
+  background-color: rgb(212, 208, 152);
+}
+
+.titlee {
+  margin-left: 2rem;
+  font-size: 2.5rem;
+  color: rgb(183, 110, 27);
+}
+
+.descriptionn {
+  margin-left: 2rem;
+  /* font-size: 2.5rem; */
+  color: rgb(92, 89, 89);
+}
+
+.IMGG {
+  margin-left: 4rem;
+  font-size: 5rem;
+  color: rgb(161, 119, 71);
 }
